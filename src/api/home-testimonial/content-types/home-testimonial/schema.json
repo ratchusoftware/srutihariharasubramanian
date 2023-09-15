@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_testimonials",
+  "info": {
+    "singularName": "home-testimonial",
+    "pluralName": "home-testimonials",
+    "displayName": "homeTestimonial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dest": {
+      "type": "string"
+    }
+  }
+}

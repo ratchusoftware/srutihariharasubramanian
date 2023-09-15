@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_presses",
+  "info": {
+    "singularName": "home-press",
+    "pluralName": "home-presses",
+    "displayName": "homePress"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

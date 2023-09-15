@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_icons",
+  "info": {
+    "singularName": "home-icon",
+    "pluralName": "home-icons",
+    "displayName": "homeIcon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
